@@ -1,0 +1,9 @@
+fish_history
+fish_read_history
+fishd.*
+!fishd.tpl
+generated_completions
+local.fish
+bundle
+completions/fin.fish
+functions/fin.fish

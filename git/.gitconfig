@@ -1,0 +1,13 @@
+[user]
+    email = dervish13@tilda.center
+    name = Rajko Dervisevic
+[color]
+    ui = auto
+[github]
+    user = Dervish13
+[alias]
+    wdiff = diff --word-diff=color
+[fetch]
+    prune = true
+[core]
+	editor = nvim

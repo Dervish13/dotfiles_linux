@@ -1,0 +1,21 @@
+# Sample minimal config file.  Copy this to ~/.offlineimaprc and edit to
+# get started fast.
+
+[general]
+accounts = Tilda
+
+[Account Tilda]
+localrepository = Tilda-local
+remoterepository = Tilda-remote
+autorefresh = 1
+
+[Repository Tilda-local]
+type = Maildir
+localfolders = ~/.Mail/Tilda
+
+[Repository Tilda-remote]
+type = IMAP
+remotehost = mail.tilda.center
+remoteuser = dervish13@tilda.center
+sslcacertfile=/etc/ssl/cert.pem
+idlefolders=['INBOX']

@@ -1,0 +1,8 @@
+set from = "dervish13@tilda.center"
+set realname = "Dervish"
+set imap_user = "dervish13@tilda.center"
+set smtp_url = smtp://$imap_user@mail.tilda.center:587
+set spoolfile = "+Tilda/INBOX"
+set record = "+Tilda/Sent"
+set postponed = "+Tilda/Drafts"
+mailboxes =Tilda/INBOX =Tilda/Drafts =Tilda/Sent =Tilda/Archive =Tilda/Deleted Items =Tilda/Junk E-mail =Tilda/Queue =Tilda/Trash

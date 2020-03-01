@@ -1,0 +1,5 @@
+*.log
+logs/
+irc.conf
+script/
+*.weechattmp
