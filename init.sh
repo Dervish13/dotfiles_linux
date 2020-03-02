@@ -7,5 +7,3 @@ cd "${REPO_ROOT}"
 for config_dir in $(git submodule | awk '{print $2}'); do
         ${config_dir}/bin/init.sh
 done
-
-./devicehints.sh
